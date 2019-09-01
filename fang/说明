@@ -1,0 +1,17 @@
+	URL分析
+
+1.获取所有城市的URL链接
+a.获取所有城市的URL链接
+     https://www.fang.com/SoufunFamily.htm
+b.获取所有城市的新房URL链接
+     eg:六盘水：https://lps.fang.com/
+         六盘水新房：https://lps.newhouse.fang.com/house/s/
+c.获取所有城市的二手房URL链接
+     eg:六盘水：https://lps.fang.com/
+          六盘水二手房：https://lps.esf.fang.com/
+d.获取所有城市下的每个区域的URL链接
+     eg:六盘水市钟山区：https://lps.esf.fang.com/house-a012313/
+     xpath说明：//ul[@class='clearfix choose_screen floatl']//li/a/@href
+
+北京为特例：新房：https://newhouse.fang.com/house/s/
+	     二手房：https://esf.fang.com/
