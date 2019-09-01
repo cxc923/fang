@@ -4,7 +4,6 @@
 import re
 
 import scrapy
-
 from fang.items import NewHouseItem,ESFHouseItem
 
 
@@ -38,7 +37,6 @@ class SfwSpiderSpider(scrapy.Spider):
                 # print("省份：",province)
                 # print("城市：",city)
                 # print("城市链接：",city_url)
-
                 # 构建新房链接
                 url_module = city_url.split("//")
                 # 协议
